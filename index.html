@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Form</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <h1>freeCodeCamp Survey Form</h1>
+        <p><em>Thank you for taking the time to help us improve the platform</em></p>
+    </section>
+    <section class="fields">
+        <fieldset>
+            <label for="name" class="lab">Name</label>
+            <input type="text" id="name" placeholder="Enter your name:" class="input">
+        </fieldset>
+        <fieldset>
+            <label for="email" class="lab">Email</label>
+            <input type="text" id="email" placeholder="Enter your email:" class="input">
+        </fieldset>
+        <fieldset>
+            <label for="age" class="lab">Age(Optional)</label>
+            <input type="number" id="age" placeholder="Age" class="input">
+        </fieldset>
+        <fieldset>
+            <label for="role" class="lab">Which option best describes your current role?</label>
+            <select type="text" id="role">
+                <option value="Select current role">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Developer">Developer</option>
+                <option value="Staff">Staff</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend class="lab">Would you recommend freeCodeCamp to a friend?</legend>
+                
+                <label for="rec" class="lab">
+                    <input type="radio" name="rec" value="Definitely" id="rec" class="rec">Definitely
+                </label>
+                <label for="rec" class="lab">
+                    <input type="radio" name="rec" value="Maybe" id="rec" class="rec">Maybe
+                </label>
+                <label for="rec" class="lab">
+                    <input type="radio" name="rec" value="Not sure" id="rec" class="rec">Not sure
+                </label>
+        </fieldset>
+        <fieldset>
+            <label for="favorite" class="lab">What is your favorite feature of freeCodeCamp</label>
+            <select name="favorite" id="fav">
+                <option value="select">Select an option</option>
+                <option value="Easy">Easy</option>
+                <option value="Interactive">Interactive</option>
+                <option value="Community">Community</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend for="impr" class="lab">What would you like to see improved? <sub>(Check all that apply)</sub></legend>
+            <label for="front" class="lab">
+                <input type="checkbox" name="front" value="Front-end Projects" id="front" class="improve tre"> Front-end Projects
+            </label>
+            <label for="back" class="lab">
+                <input type="checkbox" name="back" value="Back-end Projects" id="back" class="improve tre"> Back-end Projects
+            </label>
+            <label for="data" class="lab">
+                <input type="checkbox" name="data" value="Data Visualization" id="data" class="improve tre"> Data Visualization
+            </label>
+            <label for="challenges" class="lab">
+                <input type="checkbox" name="challenges" value="Challenges" id="challenges" class="improve tre"> Challenges
+            </label>
+            <label for="open" class="lab">
+                <input type="checkbox" name="open" value="Open Source Community" id="open" class="improve tre"> Open Source Community
+            </label>
+            <label for="gitter" class="lab">
+                <input type="checkbox" name="gitter" value="Gitter help rooms" id="gitter" class="improve tre"> Gitter help rooms
+            </label>
+            <label for="vids" class="lab">
+                <input type="checkbox" name="vids" value="Videos" id="vids" class="improve tre"> Videos
+            </label>
+            <label for="city" class="lab">
+                <input type="checkbox" name="city" value="City Meetups" id="city" class="improve tre"> City Meetups
+            </label>
+            <label for="wiki" class="lab">
+                <input type="checkbox" name="wiki" value="Wiki" id="wiki" class="improve tre"> Wiki
+            </label>
+            <label for="forum" class="lab">
+                <input type="checkbox" name="forum" value="Forum" id="forum" class="improve tre"> Forum
+            </label>
+            <label for="additional" class="lab">
+                <input type="checkbox" name="additional" value="Additional Courses" id="additional" class="improve tre"> Additional Courses
+            </label>  
+        </fieldset>
+        <fieldset>
+            <label for="comments" class="lab">Any comments or suggestions?</label>
+            <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+            <button>Submit</button>
+        </fieldset>
+    </section>
+</body>
+<footer>
+    <p>&copy September 2024</p>
+</footer>
+</html>
